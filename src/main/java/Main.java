@@ -1,6 +1,6 @@
 public class Main {
 
     public static boolean isSquare(int n) {
-        return true; // fix me!
+        return Math.sqrt(n)%1 == 0 ? true : false;
     }
 }
